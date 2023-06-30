@@ -1,0 +1,287 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+	background-color: #fff;
+}
+  
+header {
+	background-color: #ffffff;
+	padding: 10px 20px;
+	box-shadow: 1px 1px 22px 0px rgb(173 173 173 / 14%);
+}
+
+#image-input { 
+	display: none;
+}
+
+#-input{
+	padding: 10px;
+	background-color: rgb(224 220 211);
+	border: 1px solid #c1c1c1;
+	border-radius: 10px;
+	padding: 10px 20px;
+	color: #333;
+	cursor: pointer;
+	font-size: 14px;
+}
+
+#-input:hover{
+	background-color:  rgb(255, 183, 0);
+}
+
+input[type="file"] {
+	width: 200px;
+	height: 30px;
+	padding: 5px;
+	border: 1px solid #ab4545;
+	border-radius: 4px;
+	outline: none;
+	background-color: #ffffff;
+	color: #333;
+}
+
+.header-container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.header-img {
+	height: 30px;
+}
+
+.header-nav {
+	font-size: 18px;
+}
+
+.header-menu {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	gap: 25px;
+	display: flex;
+}
+
+.header-menu li {
+	margin-right: 10px;
+}
+.add-button{
+	border: none;
+}
+
+.header-link {
+	color: rgb(255, 183, 0);
+	text-decoration: none;
+	font-weight: 700;
+	letter-spacing: 1.5px;
+	transition: color 0.3s ease;
+}
+
+.header-title {
+	margin: 10px 0;
+}
+
+.header-link:hover {
+	color: #1a1200;
+}
+
+.container {
+	overflow: auto;
+	margin: 110px auto;
+	display: flex;
+	border-radius: 10px;
+	flex-direction: column;
+	align-items: center;
+	max-width: 600px;
+	padding: 20px;
+	background-color: #f4f0f0;
+	box-shadow: 1px 1px 7px rgb(0 0 0 / 21%);
+}
+
+h1, h3 {
+	text-align: center;
+}
+
+.add-note {
+    margin-top: 20px;
+    display: flex;
+	width: 80%;
+    flex-direction: column;
+	align-items: center;
+}
+
+.button {
+	display: flex;
+	gap: 325px;
+}
+
+footer {
+	background-color: #f8f8f8;
+	padding: 20px;
+	text-align: center;
+}
+
+.footer-container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.footer-links a {
+	margin-right: 10px;
+	color: #333;
+	text-decoration: none;
+}
+
+.footer-social a {
+	margin-right: 10px;
+	color: #333;
+	text-decoration: none;
+	font-size: 18px;
+}
+
+textarea {
+	width: 100%;
+	height: 150px;
+	padding: 10px;
+	border-radius: 10px;
+	border: 1px solid #ccc;
+	resize: none;
+	font-size: 14px;
+	margin-bottom: 10px;
+}
+
+button {
+	padding: 10px;
+	background-color: rgb(224 220 211);
+	border: 1px solid #c1c1c1;
+	border-radius: 10px;
+	padding: 10px 20px;
+	color: #333;
+	cursor: pointer;
+	font-size: 14px;
+	
+}
+
+#pinned-notes-container,
+#notes-container,
+#archived-notes-container,
+#bin-notes-container {
+	margin-bottom: 20px;
+}
+
+#pinned-notes-container h3,
+#notes-container h3,
+#archived-notes-container h3,
+#bin-notes-container h3 {
+	margin: 10px 0;
+}
+
+.note {
+    word-wrap: break-word;
+    word-break: break-all;
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.note-input::placeholder {
+	font-family: 'Roboto', sans-serif;
+}
+
+.note-content {
+	max-height: 100px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.note-image {
+	max-width: 100%;
+	height: auto;
+  }
+
+.note .image-container {
+	display: flex;
+	justify-content: center;
+	margin-top: 10px;
+}
+
+.note .image-container img {
+	max-width: 100%;
+	max-height: 200px;
+}
+
+.pin-button {
+	background-color: transparent;
+	border: none;
+	cursor: pointer;
+	margin-right: 5px;
+}
+
+.pin-button i {
+	color: #ea9000;
+}
+
+.image-input {
+	color: #ea9000;
+}
+
+#file-upload-button {
+	color: #ea9000;
+}
+
+.pinned, .archived {
+	display: flex;
+    word-wrap: break-word;
+    word-break: break-all;
+    background-color: rgb(250, 203, 85);
+    color: white;
+    border: 1px solid rgb(228, 201, 134);
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    flex-direction: column;
+    align-items: center;
+}
+
+.note-actions {
+	margin-top: 10px;
+	display: flex;
+	justify-content: flex-end;
+}
+
+.edit-button,
+.delete-button {
+	background-color: #e4e4e4;
+	border: 1px solid #ccc;
+	border-radius: 10px;
+	padding: 10px 20px;
+	color: #1b1b1b;
+	border: none;
+	cursor: pointer;
+	font-size: 14px;
+}
+
+.edit-button:hover,
+.delete-button:hover {
+	background-color: #ea9000;
+}
+
+.note img {
+	max-width: 100%;
+	height: auto;
+	margin-top: 10px;
+}
+
+.bin-note {
+	background-color: #f5f5f5;
+	padding: 10px;
+	margin-bottom: 10px;
+}

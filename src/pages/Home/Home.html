@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link rel="stylesheet" type="text/css" href="../reset.css">
+  <link rel="stylesheet" href="Home.css">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&family=Roboto:wght@300;500;700;900&display=swap" rel="stylesheet">
+  <link rel="manifest" href="/site.webmanifest">
+</head>
+<body>
+	<header>
+		<div class="header-container">
+		  <a href="/src/pages/index.html" class="header-title"><img class="header-img" src="/dotNote. (1).svg"></a>
+		  <nav class="header-nav">
+			<ul class="header-menu">
+			  <li><a href="../Bin/bin.html" class="header-link">Lixeira</a></li>
+			</ul>
+		  </nav>
+		</div>
+	</header>
+  <div class="container">
+    <div class="add-note">
+      <textarea id="note-input" placeholder="Anote..."></textarea>
+
+      <div class="button">
+        <button id="add-button">Salvar</button>
+        <input type="file" id="image-input" accept="image/*">
+        <label for = "image-input" id = "-input">Imagem</label>
+        <span id="image-input"></span>
+      </div>
+      
+      <div id="image-container"></div>
+    </div>
+    <div id="pinned-notes-container">
+      <h3>Notas fixadas</h3>
+    </div>
+      
+    <div id="notes-container">
+      <h3>Notas</h3>
+    </div>
+	  
+    <div id="archived-notes-container">
+      <h3>Notas arquivadas</h3>
+    </div>
+  </div>
+  <footer>
+    <div class="footer-container">
+      <div class="footer-links">
+        <a href="../AboutUs/AboutUs.html">Sobre nós</a>
+        <a href="../Privacy/Privacy.html">Privacidade</a>
+      </div>
+      <div class="footer-social">
+        <a href="https://www.linkedin.com/in/isabela-ferreira-da-silva-223b18257/"><i class="fab fa-linkedin"></i></a>
+        <a href="https://api.whatsapp.com/send?phone=5563992291904"><i class="fab fa-whatsapp"></i></a>
+        <a href="https://github.com/isabelafarago"><i class="fab fa-github"></i></a>
+      </div>
+    </div>
+  </footer>
+  
+  <!-- Include the Firebase SDK -->
+  <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-app.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-firestore.js"></script>
+	<script type="module" src="../config.js"></script>
+  <script type="module" src="./home.js"></script>
+</body>
+</html>

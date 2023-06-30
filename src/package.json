@@ -1,0 +1,15 @@
+{
+  "name": "code",
+  "version": "1.0.0",
+  "description": "Notes for everybody",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "isabela farago",
+  "license": "ISC",
+  "dependencies": {
+    "@firebase/analytics-compat": "^0.2.6",
+    "firebase": "^9.1.0"
+  }
+}
