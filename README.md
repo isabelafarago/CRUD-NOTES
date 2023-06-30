@@ -22,7 +22,7 @@ CRUD-NOTES is a sample project that demonstrates the basic functionality of a sy
 - Firebase Integration: The code imports the Firebase SDK and initializes the Firebase app with the provided configuration. It also interacts with the Firebase Firestore database to store and retrieve user data.
 - User Authentication: The code includes functionality for user authentication using email and password. It includes event listeners for a login form and a registration form. The validateUser function checks if the provided email and password match a user's data stored in the Firestore database.
 - Notifications: The code includes a showNotification function to display success or error messages to the user. It creates a notification element and appends it to the DOM, then removes it after a certain period.
-
+![Example Image](./print2.png)
 ## Contributing
 Contributions to this project are welcome. If you encounter any issues or want to add new features, feel free to submit a pull request.
 
