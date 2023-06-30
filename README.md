@@ -1,5 +1,5 @@
 # DOTNOTE.🐝🍯
-DOTNOTE. is a sample project that demonstrates the basic functionality of a system for creating, reading, updating, and deleting notes (CRUD). In this system, it is possible to create users inside firebase, realtimeDataBase.
+DOTNOTE. is a simple project that demonstrates the basic functionality of a system for creating, reading, updating, and deleting notes (CRUD). In this system, it is possible to create users inside firebase, realtimeDataBase.
 ![Image1](./print1.png)
 ![Image4](./print4.png)
 
