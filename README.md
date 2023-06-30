@@ -1,5 +1,5 @@
-# CRUD-NOTES
-CRUD-NOTES is a sample project that demonstrates the basic functionality of a system for creating, reading, updating, and deleting notes (CRUD). In this system, it is possible to create users inside firebase, realtimeDataBase.
+# DOTNOTE.🐝🍯
+DOTNOTE. is a sample project that demonstrates the basic functionality of a system for creating, reading, updating, and deleting notes (CRUD). In this system, it is possible to create users inside firebase, realtimeDataBase.
 ![Image1](./print1.png)
 ![Image4](./print4.png)
 
@@ -34,7 +34,7 @@ CRUD-NOTES is a sample project that demonstrates the basic functionality of a sy
 Contributions to this project are welcome. If you encounter any issues or want to add new features, feel free to submit a pull request.
 
 ## Author
-If you have any questions or suggestions about the Over time project, feel free to contact me:
+If you have any questions or suggestions about the DOTNOTE project, feel free to contact me:
 - Name: Isabela Ferreira Da Silva
 - Email: [0800isabelaferreira@gmail.com](mailto:0800isabelaferreira@gmail.com)
 - Discord username: isabelaffarago#7754
